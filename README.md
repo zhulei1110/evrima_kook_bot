@@ -28,23 +28,23 @@ deactivate
 sudo vi /etc/systemd/system/evrima_kook_bot.service
 
 #### 文件内容如下：
-
-[Unit]
-Description=Evrima KOOK Bot
-After=network.target
-StartLimitIntervalSec=0
-
-[Service]
-Type=simple
-Restart=always
-RestartSec=1
-User=ziyu0209
-WorkingDirectory=/home/USER_NAME/evrima_kook_bot
-ExecStart=/usr/bin/python3 /home/USER_NAME/evrima_kook_bot/main.py
-Environment=PYTHONPATH=/home/USER_NAME/evrima_kook_bot/venv/lib/python3.10/site-packages
-
-[Install]
-WantedBy=multi-user.target
+  
+[Unit]  
+Description=Evrima KOOK Bot  
+After=network.target  
+StartLimitIntervalSec=0  
+  
+[Service]  
+Type=simple  
+Restart=always  
+RestartSec=1  
+User=ziyu0209  
+WorkingDirectory=/home/USER_NAME/evrima_kook_bot  
+ExecStart=/usr/bin/python3 /home/USER_NAME/evrima_kook_bot/main.py  
+Environment=PYTHONPATH=/home/USER_NAME/evrima_kook_bot/venv/lib/python3.10/site-packages  
+  
+[Install]  
+WantedBy=multi-user.target  
 
 #### 保存并退出
 
