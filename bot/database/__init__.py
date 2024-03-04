@@ -12,13 +12,19 @@ log = logging.getLogger(__name__)
 
 DATA_BASE = {
     "connections": {
+        # "tofu": {
+        #     "engine": "tortoise.backends.sqlite",
+        #     "credentials": {
+        #         "file_path": USER_DB_PATH
+        #     }
+        # }
         "tofu": {
             "engine": "tortoise.backends.mysql",
             "credentials": {
                 "database": "evrima_kook_bot",
-                "user": "ekb_mysql_user",
-                "password": "ZXL19870728!@#$",
-                "host": "rm-bp1j36u9xgm871lw6vo.mysql.rds.aliyuncs.com",
+                "user": "",
+                "password": "",
+                "host": "",
                 "port": "3306",
             }
         }
