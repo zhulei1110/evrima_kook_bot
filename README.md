@@ -38,7 +38,7 @@ StartLimitIntervalSec=0
 Type=simple  
 Restart=always  
 RestartSec=1  
-User=ziyu0209  
+User=USER_NAME  
 WorkingDirectory=/home/USER_NAME/evrima_kook_bot  
 ExecStart=/usr/bin/python3 /home/USER_NAME/evrima_kook_bot/main.py  
 Environment=PYTHONPATH=/home/USER_NAME/evrima_kook_bot/venv/lib/python3.10/site-packages  
