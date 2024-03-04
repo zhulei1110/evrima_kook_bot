@@ -1,0 +1,153 @@
+{
+    "log_level": "INFO",
+    "token": "1/Mjg2OTc=/Mhp5N+NhW76v5rkh3t23Xw==",
+    "owner_id": "3282351547",
+    "admin_list": ["731081967", "256137741"],
+    "guild_id": "5090288814586678",
+    "voice_parent_id": "9832912632419368",
+    "get_dragon_channel": "9980750795297836",
+    "server_path": "/home/ziyu0209/theisle",
+    "server_command": "./TheIsleServer.sh",
+    "game_log_path": "/home/ziyu0209/theisle/TheIsle/Saved/Logs/TheIsle.log",
+    "game_save_path": "/home/ziyu0209/theisle/TheIsle/Saved/PlayerData",
+    "rcon_enabled": true,
+    "rcon_address": "127.0.0.1",
+    "rcon_port": 9999,
+    "rcon_password": "zxl19870728",
+    "timed_announcement": "Welcome to join TooFull Survival Server, this is a rule server, no carnibal, read the rules on discord.gg/B6zaEp7dQp PLZ ",
+    "welcome_message": "欢迎您加入恐龙岛测试服**TooFull Survival**, 点击右边这个蓝色的频道[#欢迎](https://kook.top/8ZSPXK)即可进入本服所有频道导航界面，祝您在本服游玩愉快",
+    "replies": {
+        "服务器名": "TooFull Survival kook.top/vq44vA",
+        "值班": "值班时间为 `13:00 ~ 18:00`、`19:00 ~ 23:30`，非值班时间无法提供 `取龙` 或其它人工服务",
+        "攻略,恐龙属性": "点击 --> [#萌新必看攻略](https://kook.top/H23Xm7)，即可查看恐龙岛游戏攻略，里面有游戏设置恐龙的 `属性`、`饮食` 及其它游戏信息",
+        "地图": "恐龙岛地图：\n1、[Vulnona MAP for The Isle](https://vulnona.com/game/the_isle)\n2、[The Isle Gateway Map](https://www.islemaps.com)\n3、查看中文版高清地图，请前往 --> [#萌新必看攻略](https://kook.top/H23Xm7) 频道",
+        "重启": "本服重启时间为每天18:00，重启之前3分钟内禁止攻击其他玩家，请提前找到安全地点读秒下线",
+        "汉化,中文": "点击 --> [#游戏汉化频道](https://kook.top/R7qhyz)，即可查看恐龙岛游戏各个界面的翻译汉化",
+        "活动": "点击 --> [#本服最新活动](https://kook.top/PiJSfO)，了解活动详细规则，参与活动赢大奖",
+        "注册": "点击 --> [#存取操作大厅](https://kook.top/PiJSfO) 进入该频道，在频道内发送 `/面板` 即可进行注册",
+        "规则": "规则介绍：\n1、点击 --> [#服务器规则](https://kook.top/164O2f)，查看本服游戏规则\n2、点击 --> [#规则变化](https://kook.top/u2R0kQ)，频道本服游戏规则变动\n3、点击 --> [#KOOK交流规则](https://kook.top/BRuxlq)，即可查看KOOK频道交流规范",
+        "禁言,不能发言,不能在岛民交流,没有权限发言": "点击 --> [#KOOK交流规则](https://kook.top/BRuxlq)，即可查看KOOK频道交流规范, 违反交流规则会被禁言3天，3天后自动解封",
+        "第三方,超编,混组,混养,杀同类,违规": "点击 --> [#服务器规则](https://kook.top/164O2f)，查看本服游戏规则，若判断对方违规，则可点击 [#求助或举报](https://kook.top/K9vzgX) 进行举报",
+        "存龙,取龙": "点击 --> [#存取使用说明](https://kook.top/HQzsXa)，频道查看 `存龙`、`取龙` 使用说明",
+        "公告": "点击 --> [#公告](https://kook.top/dQfYrS)，即可查看本服公告",
+        "举报": "点击 --> [#求助或举报](https://kook.top/K9vzgX)，即可按照流程举报",
+        "卡住,卡石头,卡树,卡地形,卡BUG": "点击 --> [#求助或举报](https://kook.top/K9vzgX)，在该频道点击 `新建频道` 按钮，进入新建频道后，发送你的17位Steam数字ID，并说明求助原因",
+        "小蓝熊,搜不到,进不去,D3D,EasyAnti,Easy,easy,2200": "点击 --> [#进服前问题解决方案](https://kook.top/pP3gml)，查看相关问题解决办法",
+        "视角BUG,卡视角,失灵,崩溃": "点击 --> [#进服后问题解决方案](https://kook.top/dS5GQ1)，查看相关问题解决办法",
+        "更新": "点击 --> [#官方更新公告](https://kook.top/6H8ecj)，查看恐龙岛测试服官方新版本更新内容",
+        "管理": "点击 --> [#求助或举报](https://kook.top/K9vzgX)，在该频道点击 `新建频道` 按钮，进入新建频道后，在管理员交流即可"
+    },
+    "dragon_info": {
+        "Deinosuchus": {
+            "translate_name": "恐鳄",
+            "cost": 7,
+            "count": 1
+        },
+        "Stegosaurus": {
+            "translate_name": "剑龙",
+            "cost": 8,
+            "count": 1
+        },
+        "Carnotaurus": {
+            "translate_name": "食肉牛龙",
+            "cost": 3,
+            "count": 1
+        },
+        "Tenontosaurus": {
+            "translate_name": "腱龙",
+            "cost": 3,
+            "count": 1
+        },
+        "Ceratosaurus": {
+            "translate_name": "角鼻龙",
+            "cost": 5,
+            "count": 2
+        },
+        "Dilophosaurus": {
+            "translate_name": "双冠龙",
+            "cost": 2,
+            "count": 1
+        },
+        "Pachycephalosaurus": {
+            "translate_name": "肿头龙",
+            "cost": 3,
+            "count": 2
+        },
+        "Omniraptor": {
+            "translate_name": "全能盗龙",
+            "cost": 3,
+            "count": 2
+        },
+        "Gallimimus": {
+            "translate_name": "似鸡龙",
+            "cost": 3,
+            "count": 2
+        },
+        "Herrerasaurus": {
+            "translate_name": "埃雷拉龙",
+            "cost": 3,
+            "count": 2
+        },
+        "Pteranodon": {
+            "translate_name": "无齿翼龙",
+            "cost": 1,
+            "count": 1
+        },
+        "Dryosaurus": {
+            "translate_name": "橡树龙",
+            "cost": 2,
+            "count": 3
+        },
+        "Beipiaosaurus": {
+            "translate_name": "北票龙",
+            "cost": 2,
+            "count": 3
+        },
+        "Troodon": {
+            "translate_name": "伤齿龙",
+            "cost": 2,
+            "count": 3
+        },
+        "Hypsilophodon": {
+            "translate_name": "棱齿龙",
+            "cost": -1,
+            "count": -1
+        }
+    },
+    "dragon_gacha": [
+        {
+            "weight": 1,
+            "dragons": [
+                "Deinosuchus",
+                "Stegosaurus"
+            ]
+        },
+        {
+            "weight": 49,
+            "dragons": [
+                "Tenontosaurus",
+                "Carnotaurus",
+                "Ceratosaurus"
+            ]
+        },
+        {
+            "weight": 150,
+            "dragons": [
+                "Dilophosaurus",
+                "Gallimimus",
+                "Pachycephalosaurus",
+                "Herrerasaurus",
+                "Omniraptor"
+            ]
+        },
+        {
+            "weight": 800,
+            "dragons": [
+                "Beipiaosaurus",
+                "Troodon",
+                "Pteranodon",
+                "Dryosaurus"
+            ]
+        }
+    ]
+}
